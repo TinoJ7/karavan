@@ -34,10 +34,19 @@
                                     src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJHbCUwrqWj4AR177UkL9RkCM&zoom=15&key=AIzaSyCrRUlhJcvqqQwYVrpSP6Jdy2p34IbP7bs" allowfullscreen></iframe>
                                 </td>
                                 <td align="left" valign="top">
-                                    <form action="http://1800street.com/Erniesliquor/mail.php" name="myform" method="post">
+                                    <form action="contactform/send-mail.php" name="myform" id="contactForm" method="post">
                                         <table width="100%" border="0" cellspacing="10" cellpadding="0">
-                                            <tr>
-                                                <td width="80" align="left" valign="middle"> Frist Name</td>
+                                            <?php if(@$_REQUEST['status'] == "200") { ?>
+                                                <div id="contact-mail-success-alert" class="alert alert-success" style="display: block;">
+                                                    <strong>Thank you!</strong> Your message has been sent. 
+                                                </div>
+                                            <?php } if(@$_REQUEST['status'] == "500") { ?>
+                                                <div id="contact-mail-success-alert" class="alert alert-danger" style="display: block;">
+                                                    <strong>Sorry !!</strong> Something went wrong. 
+                                                </div>
+                                            <?php } ?>
+                                            <tr>    
+                                                <td width="80" align="left" valign="middle"> Frist Name </td>
                                                 <td width="5" align="left" valign="middle">:</td>
                                                 <td align="left" valign="middle">
                                                     <input type="text" name="fname" id="fname" required>
@@ -54,7 +63,7 @@
                                                 <td align="left" valign="middle">Address</td>
                                                 <td align="left" valign="middle">:</td>
                                                 <td align="left" valign="middle">
-                                                    <input type="text" name="address" id="address" required>
+                                                    <input type="text" name="address" id="address">
                                                 </td>
                                             </tr>
                                             <tr>

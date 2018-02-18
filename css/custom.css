@@ -22,3 +22,7 @@
 	color:#bb0000 ;
 	box-shadow: 0px 0px 5px #bb0000;
 }
+#contact-mail-success-alert {
+	display:none;
+	text-align: center;
+}
