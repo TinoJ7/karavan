@@ -13,7 +13,7 @@ git push origin master
 
 For pulling
 
-```php
+```bash
 git status
 git add --all
 git commit . -m "Your message"
@@ -22,7 +22,7 @@ git pull origin master
 
 Fix if any conflict occurs, then
 
-```php
+```bash
 git commit -a -m "Conflict fix message"
 ```
 
