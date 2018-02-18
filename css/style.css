@@ -1,0 +1,347 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f8f8f8 url(../images/repeadbg.png) center top repeat-y;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    color: #333;
+}
+
+#wraper_inner {
+    background: url(../images/bodybg.jpg) center top no-repeat;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#wraper {
+    background: #ede1db;
+    box-shadow: 0px 0px 3px #333;
+    width: 990px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#header {
+    background: url(../images/header.png) center top no-repeat;
+    width: 990px;
+    overflow: hidden;
+    margin: 0 auto;
+    height: 160px;
+}
+
+#topbar {
+    width: 990px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#logo {
+    background: url(../images/logo.png) center top no-repeat;
+    width: 239px;
+    height: 106px;
+    margin: 5px 0 0 20px;
+    float: ;
+    float: left;
+}
+
+#call {
+    width: 173px;
+    height: 50px;
+    float: left;
+    margin: 20px 0 0 10px;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+    color: #333;
+    font-size: 23px;
+}
+
+#timing {
+    width: 196px;
+    height: 50px;
+    float: left;
+    margin: 48px 0 0 340px;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+    color: #333;
+    font-size: 23px;
+}
+
+.add {
+    color: #D12A02;
+    font-size: 16px;
+}
+
+.call {
+    font-family: "Myriad Pro";
+    font-weight: bold;
+    color: #333;
+    font-size: 23px;
+}
+
+#menu {
+    bawidth: 990px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+    background: url(../images/nav.png) left no-repeat
+}
+
+#menu li a {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: normal;
+    color: #fff;
+    display: block;
+    padding: 3px 26px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#menu li a:hover {
+    color: #000;
+    text-shadow: 1px 1px 5px #C00;
+}
+
+#menu li:first-child {
+    background: none;
+}
+
+.clear {
+    clear: both;
+}
+
+#banner {
+    width: 780px;
+    height: 262px;
+    float: left;
+    margin: 3px 0 0 8px;
+}
+
+#sideban {
+    float: left;
+    background: url(../images/sideban.png) center top;
+    width: 180px;
+    height: 262px;
+    margin: 3px 0 0 14px;
+}
+
+#shadow {
+    background: url(../images/shadow.png) center top no-repeat;
+    width: 990px;
+    height: 69px;
+    margin: 0 auto;
+}
+
+#midban {
+    width: 990px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.brdr {
+    border: 1px solid #CCC;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+#content {
+    width: 990px;
+    margin: 0 auto;
+    border-top: 3px solid #fff;
+    margin: 5px 0 0 0
+}
+
+#sidecnt {
+    width: 220px;
+    float: left;
+    margin: 0px 0 0 8px;
+}
+
+#cnt {
+    background: #fff center top repeat-x;
+    width: 730px;
+    float: left;
+    border: 1px solid #e9d3c8;
+    margin: 0px 0 0 10px;
+    padding-left: 15px;
+    line-height: 24px;
+}
+
+.pr ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pr ul li {
+    margin: 0;
+    padding: 0;
+    background: url(../images/liul.png) center top repeat-x;
+}
+
+.pr li a {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    color: #fff;
+    display: block;
+    padding: 5px 20px;
+    /*background: url(http://www.erniesliquor.com/images/icn.png) 2px center no-repeat*/
+}
+
+.pr li:hover {
+    color: #333;
+    background: url(../images/lihover.png);
+}
+
+.pr li a:hover {
+    color: #FFF;
+    font-weight: bold;
+}
+
+.pr li:first-child a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    background: none
+}
+
+.pr li:first-child a:hover {
+    color: #fff;
+    background: none;
+}
+
+.wel {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: normal;
+    color: #333;
+    padding: 10px;
+}
+
+span {
+    color: #d12a02;
+}
+
+.txt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    color: #333;
+    ;
+    padding: 5px;
+}
+
+#foterbtm {
+    background: url(http://www.erniesliquor.com/images/nFooter.png) center top;
+    width: 990px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+#footer {
+    background: #fff;
+    width: 990px;
+    margin: 0 auto;
+    color: #fff;
+    height: 50px;
+    margin-top: 5px;
+    box-shadow: 0px 0px 3px #333;
+}
+
+
+/*-------------- Slider --------------*/
+
+#slider {
+    position: relative;
+    /*margin:30px 0px 5px 18px;  width:526px; height:297px;*/
+}
+
+#slider img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+#slider a {
+    border: 0;
+    display: block;
+}
+
+.nivo-controlNav {
+    position: absolute;
+    left: 550px;
+    bottom: 5px;
+}
+
+.nivo-controlNav a {
+    display: block;
+    width: 19px;
+    height: 18px;
+    background: #fff url(../images/gl1.png) center top no-repeat;
+    text-indent: -9999px;
+    margin-right: 5px;
+    float: left;
+    border-radius: 10px;
+}
+
+.nivo-controlNav a.active {
+    background: url(../images/glhove.png) center top no-repeat;
+}
+
+.nivo-directionNav a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url(http://www.erniesliquor.com/images/arrows.png) no-repeat;
+    text-indent: -9999px;
+    border: 0;
+}
+
+a.nivo-nextNav {
+    background-position: -30px 0;
+    right: 15px;
+}
+
+a.nivo-prevNav {
+    left: 15px;
+}
+
+.nivo-caption {
+    text-shadow: none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.nivo-caption a {
+    color: #efe9d1;
+    text-decoration: underline;
+}
